@@ -20,7 +20,6 @@ Focus: Building dynamic web apps using Python, Django, SQL, JavaScript, and more
 | 9 | Testing, CI/CD | Incomplete | Write unit/integration tests; set up CI/CD pipelines for automated deployment and quality assurance. |
 | 10 | Scalability and Security | Incomplete | Optimize apps for scale (caching, load balancing); implement security best practices (auth, encryption). |
 
-**Projects**: [Project 0: Search Engine](link-to-your-project) | [Project 1: Wiki](link-to-your-project) | ... (Add your links here!)
 
 ### CS50's Introduction to Computer Science (CS50x)
 Focus: From zero to hero in CS – algorithms, data structures, and languages like C, Python, SQL. Overall: **Incomplete** (Completed: Week 0).
@@ -39,7 +38,6 @@ Focus: From zero to hero in CS – algorithms, data structures, and languages li
 | 9 | Flask | Incomplete | Develop full-stack apps with Flask: routes, templates (Jinja), sessions. |
 | 10 | The End (Final Project) | Incomplete | Apply all concepts to a capstone project. Present and reflect on learning. |
 
-**Projects**: [Pset 0: Scratch](link-to-your-project) | [Pset 1: Mario](link-to-your-project) | ... (Add your links and code here!)
 
 ## Goals & Milestones
 - **Short-term**: Complete Django and SQL in CS50W; tackle Week 1-3 in CS50x.
@@ -49,5 +47,4 @@ Focus: From zero to hero in CS – algorithms, data structures, and languages li
   - [CS50W](https://cs50.harvard.edu/web/2020/)
   - [CS50 Discord](https://discord.gg/cs50) for community support.
 
-## نحوه اجرای برنامه‌ها (How to Run Projects)
-این بخش راهنمایی گام‌به‌گام برای اجرای پروژه‌های مختلف در repo رو داره. اول repo رو کلون کن، بعد بسته به نوع پروژه (Python, Django, Flask, یا C) عمل کن. فرض می‌کنم Python 3+ و Git نصب داری (اگر نه، از [python.org](https://python.org) و [git-scm.com](https://git-scm.com) دانلود کن).
+
