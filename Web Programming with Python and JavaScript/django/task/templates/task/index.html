@@ -1,15 +1,16 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Task</title>
-</head>
-<body>
+{% extends "task/leyout.html" %}
+
+{% block body %}
+    <h1>Tasks</h1>
     <ul>
         {% for task in tasks %}
             <li>{{ task }}</li>
+        {% empty%}
+        <li>No task</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+    <a href="{% url 'task:add' %}">Add a New Task</a>
+{% endblock %}
+
+
+

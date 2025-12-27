@@ -1,15 +1,11 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Task</title>
-</head>
-<body>
-   <h1>Add From</h1>
-   <form>
-       <input type="text" name="task">
-       <input type="submit">
-   </form>
-</body>
-</html>
+{% extends "task/leyout.html" %}
+{% block body %}
+    <h1>Add Form</h1>
+    <form action="{% url 'task:add' %}" method="post">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Add Task">
+    </form>
+    <a href="{% url 'task:index' %}">View Tasks</a>
+{% endblock %}
+
