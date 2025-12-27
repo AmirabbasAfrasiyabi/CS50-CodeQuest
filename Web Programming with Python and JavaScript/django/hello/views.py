@@ -11,3 +11,14 @@ def brain(request , name):
 
 def hello(request):
     return JsonResponse({'hello': 'world'})
+
+def four_view(request):
+    return render(request, 'four.html')
+
+def greeting(request):
+    return render(request, 'greeting.html' , {
+        'name' : 'Greek',
+
+
+    })
+
